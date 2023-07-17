@@ -60,10 +60,6 @@ public class MainDz {
                         map.put(menu[Integer.parseInt(inputArr[i])-1], filtr);
                     }
                 }
-                System.out.println("По какому признаку упорядочить значения");
-                System.out.println(menu1);
-                Integer inputFiltr = Integer.parseInt(scanner.nextLine());
-
 //                System.out.println(map);
                 Set filtr = filtr(setN,map);
                 for (Object fi:filtr) {
